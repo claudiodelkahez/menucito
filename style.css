@@ -116,8 +116,9 @@ section {
     align-items: center;
     margin-right: auto;
     margin-left: auto;
-    width: 200px;
-    height: 200px;
+    padding: 10px;
+    width: 150px;
+    height: 150px;
 }
 .producto__imagen img {
     border-radius: 5%;
