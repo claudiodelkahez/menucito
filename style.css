@@ -29,7 +29,7 @@ article {
 }
 
 header {
-    background: cornsilk;
+    object-fit: contain;
     padding: 5px;
     margin: 5px;
 }
@@ -37,20 +37,15 @@ header {
 .titulo {
     text-align: center;
     padding: 50px 0 50px 0;
-    background: turquoise;
 }
 .subtitulo {
-    background: yellow;
     line-height: 30px;
     text-align: center;
-    
 }
 
 /* <----- section ------> */
 
-
 body {
-    background: coral;
     min-height: 100%;
     display: flex;
 
@@ -59,27 +54,25 @@ body {
 
 /* <----- section ------> */
 
-
 section {
-    background: darkgoldenrod;
+    overflow: hidden;
     margin: 5px;
-    padding-top: 10px;
+    padding-top: 5px;
     padding-bottom: 10px;
 }
 .botonera-menu {
-    background: crimson;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    max-height: 100%;
 }
 .botones {
     width: 300px;
 
     margin: 5px;
     padding: 10px;
-    background: darkgray;
 }
 .boton {
     width: 250px;
@@ -90,41 +83,54 @@ section {
     margin: 5px;
 }
 
-.caja {
+.producto {
     margin: 5px;
     padding: 10px;
-    background: darkgray;
+    border-top: dotted;
+    border-color: rgb(158, 158, 158);
+    border-width: 2px;
 }
 
-.caja-imagen {
-    background: darkgreen;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+.producto_titulo-precio {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 10px 0px 10px 0px;
+    font-size: 20px;
+    font-weight: 700;
 }
-.caja-imagen img {
+
+.producto__precio {
+    padding-right: 10px;
+}
+.producto__imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 200px;
+    height: 200px;
+}
+.producto__imagen img {
+    border-radius: 5%;
+
     width: 100%;
     height: 100%;
     object-fit: contain;
-    border-radius: 50%;
 }
 
-.titulodelacaja {
-    padding: 5px;
-    background: chartreuse;
+.producto__descripcion {
+    text-align: center;
+    padding: 5px 0 5px 0;
 }
-.preciodelacaja {
-    background: darkcyan;
-    padding: 5px;
-}
-
 
 /* <----- footer ------> */
 
 footer {
     margin-top: auto;
     height: 100px;
-    background: cornflowerblue;
+    background: rgb(63, 63, 63);
     padding: 5px;
 }
 .redes {
@@ -135,8 +141,6 @@ footer {
     padding-bottom: 5px;
 }
 .redes-whatsapp {
-    color: whitesmoke;
-
     font-size: 40px;
     padding-right: 10px;
 }
@@ -145,7 +149,6 @@ footer {
 }
 
 .redes-instagram {
-    color: whitesmoke;
     font-size: 40px;
     padding-right: 10px;
 }
@@ -155,16 +158,13 @@ footer {
 
 .redes-facebook {
     font-size: 40px;
-    color: whitesmoke;
 }
 .redes-facebook:hover {
-    color: tomato;
     font-size: 45px;
 }
 
 .licencia {
     color: white;
     line-height: 40px;
-    background: darkgoldenrod;
     text-align: center;
 }
