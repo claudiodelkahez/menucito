@@ -29,12 +29,19 @@ article {
 }
 
 header {
-    object-fit: contain;
+
+
     padding: 5px;
     margin: 5px;
 }
+header img {
+    max-height: 200px;
+    object-fit: contain;
 
+
+}
 .titulo {
+
     text-align: center;
     padding: 50px 0 50px 0;
 }
@@ -127,10 +134,9 @@ section {
 /* <----- footer ------> */
 
 footer {
+    padding-top: 15px;
     margin-top: auto;
-    height: 100px;
     background: rgb(63, 63, 63);
-    padding: 5px;
 }
 .redes {
     display: flex;
