@@ -6,7 +6,9 @@
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
 }
-
+html {
+    height: 100%;
+}
 ::-webkit-scrollbar {
     display: none;
 }
