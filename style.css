@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to { 
+        opacity: 1;
+        transform: rotateX(-10deg);
+    }
+
+}
+
+article {
+    animation: transitionIn 2s;
+}
+
+
+
+header {
+    background: cornsilk;
+    padding: 5px;
+    margin: 5px;
+}
+
+.titulo {
+    text-align: center;
+    padding: 50px 0 50px 0;
+    background: turquoise;
+}
+.subtitulo {
+    background: yellow;
+    padding: 10px 0 10px 0x;
+    text-align: center;
+}
+
+body {
+    background: coral;
+    height: 100vh;
+}
+
+section {
+    background: darkgoldenrod;
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.botonera-menu {
+    background: crimson;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.botones {
+    width: 300px;
+
+    margin: 5px;
+    padding: 10px;
+    background: darkgray;
+}
+.boton {
+    width: 250px;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 20px;
+    border-style: 2px #000;
+    margin: 5px;
+}
+
+.caja {
+    margin: 5px;
+    padding: 10px;
+    background: darkgray;
+}
+
+.caja-imagen {
+    background: darkgreen;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.caja-imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.titulodelacaja {
+    padding: 5px;
+    background: chartreuse;
+}
+.preciodelacaja {
+    background: darkcyan;
+    padding: 5px;
+}
+
+footer {
+    height: 100px;
+    background: cornflowerblue;
+    padding: 5px;
+}
+.redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    padding-bottom: 5px;
+}
+.redes-whatsapp {
+    color: whitesmoke;
+
+    font-size: 40px;
+    padding-right: 10px;
+}
+.redes-whatsapp:hover {
+    font-size: 45px;
+}
+
+.redes-instagram {
+    color: whitesmoke;
+    font-size: 40px;
+    padding-right: 10px;
+}
+.redes-instagram:hover {
+    font-size: 45px;
+}
+
+.redes-facebook {
+    font-size: 40px;
+    color: whitesmoke;
+}
+.redes-facebook:hover {
+    color: tomato;
+    font-size: 45px;
+}
+
+.licencia {
+    color: white;
+    line-height: 40px;
+    background: darkgoldenrod;
+    text-align: center;
+}
