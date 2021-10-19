@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+
+    color: #000000;
+    background-color: #ffffff;
+}
+/* <== header ==> */
+
+header {
+    height: 10vh;
+    width: 100%;
+    background-color: #ff9100;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: solid 3px #ffffff;
+}
+h1 {
+    padding-left: 20px;
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 700px;
+
+    width: 100%;
+    background-color: #e9c46a;
+}
+
+/* <== landing ==> */
+
+.landing {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 90vh;
+    padding: 20px;
+
+    background-color: #ffffff;
+}
+.landing_art1 {
+    height: 80%;
+}
+.landing_art2 {
+    display: flex;
+    justify-content: center;
+}
+
+.landing_titulo {
+    width: 100%;
+
+    font-size: 4rem;
+    color: #ff9100;
+    font-weight: bolder;
+    line-height: 4.2rem;
+}
+.landing_titulo-menucito {
+    font-size: 4rem;
+    color: #161616;
+    font-weight: bolder;
+    line-height: 3.5rem;
+    padding-bottom: 1rem;
+}
+
+.landing_descripcion {
+    font-size: 1.6rem;
+    color: #949494;
+    line-height: 2rem;
+}
+
+.boton_landing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.boton_landing a {
+    background-color: #ff9100;
+    border-radius: 10px;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: bolder;
+    padding: 1rem 3rem;
+}
+.boton_landing a:visited {
+    color: #ffff;
+}
+
+/* <== proyectos ==> */
+
+.proyectos {
+    width: 100%;
+    height: 100%;
+}
+
+/* <== lag ==> */
+
+.proyectos_lag {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+}
+.proyectos_lag img {
+    display: flex;
+
+    align-items: center;
+    border-radius: 10px;
+
+    max-height: 250px;
+}
+
+/* <== thefriendsburgers ==> */
+
+.proyectos_thefriendsburgers {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    align-items: center;
+
+    width: 100%;
+}
+.proyectos_thefriendsburgers img {
+    display: flex;
+
+    align-items: center;
+    border-radius: 10px;
+
+    max-height: 300px;
+}
+
+/* <== pizzanova ==> */
+
+.boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 90%;
+    height: 40px;
+
+    background-color: #ff9100;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.boton a {
+    color: #ffffff;
+    font-weight: 700;
+    display: flex;
+    text-decoration: none;
+}
+
+/* <== INICIO WHATSAPP BTN */
+
+.btn_whatsapp {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 15px;
+    right: 15px;
+    background: #46c756;
+    columns: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(red, green, blue, 0.3);
+    z-index: 100;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn_whatsapp:visited {
+    color: white;
+    background: #46c756;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn_whatsapp:hover {
+    text-decoration: none;
+    color: #46c756;
+    background: #fff;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* <--FIN WHATSAPP BTN --> */
+
+/* #264653
+#2a9d8f
+#e9c46a
+#f4a261
+#e76f51 */
