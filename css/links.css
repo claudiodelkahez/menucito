@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: linear-gradient(
+        to top,
+        #000000,
+        #202020,
+        #3b3b3b,
+        #585858,
+        #767676
+    );
+    width: 100%;
+    min-height: 100vh;
+    max-width: 90rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-container {
+    background-image: linear-gradient(
+        to right top,
+        #d16ba5,
+        #c777b9,
+        #ba83ca,
+        #aa8fd8,
+        #9a9ae1,
+        #8aa7ec,
+        #79b3f4,
+        #69bff8,
+        #52cffe,
+        #41dfff,
+        #46eefa,
+        #5ffbf1
+    );
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    margin: 2rem 0rem;
+    border: 0.5rem solid #ffff;
+}
+.arroba_link {
+    color: #ffff;
+    font-size: 2rem;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+.descripcion {
+    width: 90%;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.4rem;
+    color: white;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+section {
+    width: 90%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedor_boton {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0.5rem;
+    width: 100%;
+    height: 5rem;
+    max-width: 700px;
+    border: 0.1rem solid white;
+}
+.boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    color: white;
+    text-decoration: none;
+    padding: 1rem 4rem;
+    width: 100%;
+    height: 100%;
+}
+.boton:hover {
+    color: #000000;
+    background-color: #ffff;
+    border: 0.2rem solid #000000;
+
+}
+.titulo_entre_botones {
+    padding: 1rem;
+    color: #ffff;
+    font-size: 1.4rem;
+    font-weight: 600;
+
+}
+
+/*  <== footer ==>  */
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 3rem;
+    padding-top: 3rem;
+
+}
+
+.creditos a {
+    height: 3rem;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
