@@ -37,33 +37,22 @@ header {
     align-items: center;
 }
 .img-container {
-    background-image: linear-gradient(
-        to right top,
-        #d16ba5,
-        #c777b9,
-        #ba83ca,
-        #aa8fd8,
-        #9a9ae1,
-        #8aa7ec,
-        #79b3f4,
-        #69bff8,
-        #52cffe,
-        #41dfff,
-        #46eefa,
-        #5ffbf1
-    );
     width: 15rem;
     height: 15rem;
-    border-radius: 50%;
     margin: 2rem 0rem;
-    border: 0.5rem solid #ffff;
 }
+.img-container img {
+    border: 0.5rem solid #ffff;
+    object-position: center;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 .arroba_link {
     color: #ffff;
     font-size: 2rem;
     font-weight: 600;
     text-decoration: none;
-
 }
 .descripcion {
     width: 90%;
@@ -115,14 +104,12 @@ section {
     color: #000000;
     background-color: #ffff;
     border: 0.2rem solid #000000;
-
 }
 .titulo_entre_botones {
     padding: 1rem;
     color: #ffff;
     font-size: 1.4rem;
     font-weight: 600;
-
 }
 
 /*  <== footer ==>  */
@@ -133,7 +120,6 @@ footer {
     width: 100%;
     margin-bottom: 3rem;
     padding-top: 3rem;
-
 }
 
 .creditos a {
