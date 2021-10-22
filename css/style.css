@@ -10,6 +10,8 @@ html {
     justify-content: center;
     align-items: center;
     width: 100%;
+    background-color: #ff9100;
+
     font-family: "Poppins", sans-serif;
 }
 
@@ -19,10 +21,8 @@ body {
     align-items: center;
 
     width: 100%;
-    height: 100%;
 
     color: #000000;
-    background-color: #ffffff;
 }
 /* <== header ==> */
 
@@ -45,10 +45,9 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 700px;
-
+    max-width: 1200px;
     width: 100%;
-    background-color: #e9c46a;
+    height: 100%;
 }
 
 /* <== landing ==> */
@@ -60,6 +59,7 @@ main {
     width: 100%;
     height: 90vh;
     padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 
     background-color: #ffffff;
 }
@@ -119,10 +119,19 @@ main {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center;    
-
+    align-items: center;
+    background-color: #ffffff;
+    margin: 10rem 0rem;
+    padding: 10rem 0rem;
     width: 100%;
     height: 100%;
+}
+.proyectos h2 {
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-weight: bolder;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
 }
 
 /* <== lag ==> */
@@ -154,11 +163,7 @@ main {
 
     width: 100%;
     height: 100%;
-   
-
 }
-
-
 
 /* <== thefriendsburgers ==> */
 
@@ -201,6 +206,146 @@ main {
     display: flex;
     text-decoration: none;
 }
+
+/* <== Tabla precios ==> */
+
+.precios-tabla {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin: 5rem;
+}
+
+.precios-tabla h2 {
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+    margin: 3rem 0rem;
+    text-align: center;
+
+    font-size: 6rem;
+}
+.precios-contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+}
+.precios-tabla {
+    display: flex;
+
+    width: 100%;
+}
+.precios-columna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 90%;
+    max-width: 300px;
+    height: 65rem;
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+
+/* para version desktop */
+
+/* .precios-columna.izquierda{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+
+}
+
+.precios-columna.derecha{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+ */
+
+.precios-columna.central {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 90%;
+    max-width: 320px;
+    height: 70rem;
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+    border-radius: 1rem;
+    margin-top: 1rem;
+
+    z-index: 1;
+}
+
+.precios-superior {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 3rem;
+}
+.precios-titulo {
+    font-size: 4rem;
+    font-weight: bolder;
+}
+.precios-recomendado {
+    text-transform: uppercase;
+    margin-bottom: 2.5rem;
+    font-size: 1.4rem;
+}
+.precios-precio {
+    color: #ff9100;
+
+    font-size: 4rem;
+    font-weight: boldv;
+}
+.precios-duracion {
+    color: #5e5e5e;
+    font-size: 2rem;
+}
+.separador {
+    height: 2px;
+    width: 80%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 1rem 0rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+}
+.precios-inferior {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 85%;
+    height: 33rem;
+    padding: 2rem 0rem;
+    margin-bottom: 2rem;
+}
+.precios-inferior p {
+    font-family: "poppins";
+    font-weight: lighter;
+    line-height: 3.5rem;
+    font-size: 1.3rem;
+    color: rgb(61, 61, 61);
+}
+
+.btn-cta {
+    border: none;
+    background-color: #ff9100;
+
+    width: 90%;
+    margin: 1rem 0;
+    padding: 2rem;
+    border-radius: 1rem;
+    color: #fff;
+}
+/* <== Tabla precios ==> */
 
 /* <== INICIO WHATSAPP BTN */
 
