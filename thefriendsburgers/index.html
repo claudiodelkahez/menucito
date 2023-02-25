@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>The Friends Burgers® | Menucito</title>
+
+        <link rel="stylesheet" href="./styles.css" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@400;500;700;900&display=swap" rel="stylesheet"> 
+
+        <script
+            src="https://kit.fontawesome.com/257363870e.js"
+            crossorigin="anonymous"
+        ></script>
+
+        
+        <link rel="apple-touch-icon" sizes="57x57" href="./favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="./favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="./favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="./favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="./favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="./favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="./favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="./favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+        <link rel="manifest" href="./favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="./favicon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+    </head>
+
+    <body>
+       
+        <header>  
+           
+            <a class="cabecera" href="#"><img class="header_img" src="./imgs/logothefriendsburgers.png" alt="thefriendsburgers logo"></a>
+
+            <!-- <h1 ><a  href="../favicon.html" >THE FRIENDS BURGERS</a></h1> -->
+            <span class="cabecera_descripcion">📆 Jueves a Domingo (19:30 a 23:00hs)</span>
+            <span class="cabecera_descripcion" >🛵 Hurlingham, C. Jardín, Podesta</span>
+            <span class="cabecera_descripcion" >💳 Efectivo / Mercadopago</span>
+        </header>
+           
+        <section>
+
+            <article class="header">
+                <span class="header_titulo">NUESTRAS BURGERS INCLUYEN PAPAS FRITAS</span>
+            </article>
+
+            <div class="producto">
+                <!-- titulo producto -->
+                <h2 class="producto_titulo" id="producto1">CHEESEBURGER</h2>
+                <!-- imagen producto -->
+                <a class="button" href="#modal1">
+                    <div class="contenedor-producto_imagen">
+                        <img
+                            class="producto_imagen"
+                            src="./imgs/cheese.jpg" 
+                            alt=""
+                        />
+                    </div>
+                </a>
+                <!-- descripcion producto -->
+                <div class="producto_descripcion">
+                    <p>Carne - Cheddar</p>
+                    <p class="producto_precio">
+                        simple $500 - doble $600 - triple $700
+                    </p>
+                </div>
+
+                <!-- ventana modal -->
+                <div class="popup" id="modal1">
+                    <a class="popup__overlay" href="#producto1"></a>
+                    <div class="popup__wrapper">
+                        <div class="popup__close-background"></div>
+                        <a class="popup__close" href="#producto1">X</a>
+                        <div class="contenido_modal">
+                            <div class="contenedor-imagen_modal">
+                                <img src="./imgs/cheese.jpg" alt="" />
+                            </div>
+
+                            <div class="contenedor-info">
+                                <div class="descripcion_producto">
+                                    <h2 class="descripcion_producto-titulo">CHEESEBURGER
+                                    </h2>
+
+                                    <p class="descripcion_producto-texto">
+                                        Carne - Cheddar
+                                    </p>
+                                    <p class="descripcion_producto-precio">
+                                        simple $500 - doble $600 - triple $700
+                                    </p>
+
+                                   <!--  <div class="contenedor-boton_whatsapp">
+                                        <a class="boton_whatsapp" href="#"
+                                            >PEDILA YA</a
+                                        >
+                                    </div> -->
+                                </div>
+
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="producto">
+                <!-- titulo producto -->
+                <h2 class="producto_titulo" id="producto2">TASTY BACON</h2>
+                <!-- imagen producto -->
+                <a class="button" href="#modal2">
+                    <div class="contenedor-producto_imagen">
+                        <img
+                            class="producto_imagen"
+                            src="./imgs/tasty.jpg"
+                            alt=""
+                        />
+                    </div>
+                </a>
+                <!-- descripcion producto -->
+                <div class="producto_descripcion">
+                    <p>Carne - Cheddar - Panceta ahumada - BBQ</p>
+                    <p class="producto_precio">
+                        simple $540 - doble $640 - triple $730
+                    </p>
+                </div>
+
+                <!-- ventana modal -->
+                <div class="popup" id="modal2">
+                    <a class="popup__overlay" href="#producto2"></a>
+                    <div class="popup__wrapper">
+                        <div class="popup__close-background"></div>
+                        <a class="popup__close" href="#producto2">X</a>
+                        <div class="contenido_modal">
+                            <div class="contenedor-imagen_modal">
+                                <img src="./imgs/tasty.jpg" alt="" />
+                            </div>
+
+                            <div class="contenedor-info">
+                                <div class="descripcion_producto">
+                                    <h2 class="descripcion_producto-titulo">
+                                        TASTY BACON
+                                    </h2>
+
+                                    <p class="descripcion_producto-texto">
+                                        Carne - Cheddar - Panceta ahumada - BBQ
+                                    </p>
+                                    <p class="descripcion_producto-precio">
+                                        simple $540 - doble $640 - triple $730
+                                    </p>
+                                </div>
+
+                                <!-- <div class="contenedor-boton_whatsapp">
+                                    <a class="boton_whatsapp" href="#"
+                                        >PEDILA YA</a
+                                    >
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="producto">
+                <!-- titulo producto -->
+                <h2 class="producto_titulo" id="producto3" >BIG LOVE</h2>
+                <!-- imagen producto -->
+                <a class="button" href="#modal3">
+                    <div class="contenedor-producto_imagen">
+                        <img
+                            class="producto_imagen"
+                            src="./imgs/biglove.jpg"
+                            alt=""
+                        />
+                    </div>
+                </a>
+                <!-- descripcion producto -->
+                <div class="producto_descripcion">
+                    <p>Carne - Cheddar - Lechuga - Cebolla - Thousand Island</p>
+                    <p class="producto_precio">
+                        simple $540 - doble $640 - triple $740
+                    </p>
+                </div>
+
+                <!-- ventana modal -->
+                <div class="popup" id="modal3">
+                    <a class="popup__overlay" href="#"></a>
+                    <div class="popup__wrapper">
+                        <div class="popup__close-background"></div>
+                        <a class="popup__close" href="#producto3">X</a>
+                        <div class="contenido_modal">
+                            <div class="contenedor-imagen_modal">
+                                <img src="./imgs/biglove.jpg" alt="" />
+                            </div>
+
+                            <div class="contenedor-info">
+                                <div class="descripcion_producto">
+                                    <h2 class="descripcion_producto-titulo">
+                                        BIG LOVE
+                                    </h2>
+
+                                    <p class="descripcion_producto-texto">
+                                        Carne - Cheddar - Lechuga - Cebolla - Thousand Island
+                                    </p>
+                                    <p class="descripcion_producto-precio">
+                                        simple $540 - doble $640 - triple $740
+                                    </p>
+                                </div>
+
+                               <!--  <div class="contenedor-boton_whatsapp">
+                                    <a class="boton_whatsapp" href="#"
+                                        >PEDILA YA</a
+                                    >
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="producto">
+                <!-- titulo producto -->
+                <h2 class="producto_titulo" id="producto4" >WHOPPER</h2>
+                <!-- imagen producto -->
+                <a class="button" href="#modal4">
+                    <div class="contenedor-producto_imagen">
+                        <img
+                            class="producto_imagen"
+                            src="./imgs/whooper.jpg"
+                            alt=""
+                        />
+                    </div>
+                </a>
+                <!-- descripcion producto -->
+                <div class="producto_descripcion">
+                    <p>Carne - Cheddar - Lechuga - Tomate - Cebolla morada - Mayonesa</p>
+                    <p class="producto_precio">
+                        simple $500 - doble $600 - triple $700
+                    </p>
+                </div>
+
+                <!-- ventana modal -->
+                <div class="popup" id="modal4">
+                    <a class="popup__overlay" href="#"></a>
+                    <div class="popup__wrapper">
+                        <div class="popup__close-background"></div>
+                        <a class="popup__close" href="#producto4">X</a>
+                        <div class="contenido_modal">
+                            <div class="contenedor-imagen_modal">
+                                <img src="./imgs/whooper.jpg" alt="" />
+                            </div>
+
+                            <div class="contenedor-info">
+                                <div class="descripcion_producto">
+                                    <h2 class="descripcion_producto-titulo">
+                                        WHOPPER
+                                    </h2>
+
+                                    <p class="descripcion_producto-texto">
+                                        Carne - Cheddar - Lechuga - Tomate - Cebolla morada - Mayonesa
+                                    </p>
+                                    <p class="descripcion_producto-precio">
+                                        simple $500 - doble $600 - triple $700
+                                    </p>
+                                </div>
+
+                               <!--  <div class="contenedor-boton_whatsapp">
+                                    <a class="boton_whatsapp" href="#"
+                                        >PEDILA YA</a
+                                    >
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="producto">
+                <!-- titulo producto -->
+                <h2 class="producto_titulo" id="producto5">DIRTY ONION</h2>
+                <!-- imagen producto -->
+                <a class="button" href="#modal5">
+                    <div class="contenedor-producto_imagen">
+                        <img
+                            class="producto_imagen"
+                            src="./imgs/dirtyonion.jpg"
+                            alt=""
+                        />
+                    </div>
+                </a>
+                <!-- descripcion producto -->
+                <div class="producto_descripcion">
+                    <p>Carne - Cheddar</p>
+                    <p class="producto_precio">
+                        simple $500 - doble $600 - triple $700
+                    </p>
+                </div>
+
+                <!-- ventana modal -->
+                <div class="popup" id="modal5">
+                    <a class="popup__overlay" href="#"></a>
+                    <div class="popup__wrapper">
+                        <div class="popup__close-background"></div>
+                        <a class="popup__close" href="#producto5">X</a>
+                        <div class="contenido_modal">
+                            <div class="contenedor-imagen_modal">
+                                <img src="./imgs/dirtyonion.jpg" alt="" />
+                            </div>
+
+                            <div class="contenedor-info">
+                                <div class="descripcion_producto">
+                                    <h2 class="descripcion_producto-titulo">
+                                        DIRTY ONION
+                                    </h2>
+
+                                    <p class="descripcion_producto-texto">
+                                        Carne - Cheddar
+                                    </p>
+                                    <p class="descripcion_producto-precio">
+                                        simple $500 - doble $600 - triple $700
+                                    </p>
+                                </div>
+
+                                <!-- <div class="contenedor-boton_whatsapp">
+                                    <a class="boton_whatsapp" href="#"
+                                        >PEDILA YA</a
+                                    >
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="producto">
+                <!-- titulo producto -->
+                <h2 class="producto_titulo" id="producto6">SPECIAL GREENBURGER</h2>
+                <!-- imagen producto -->
+                <a class="button" href="#modal6">
+                    <div class="contenedor-producto_imagen">
+                        <img
+                            class="producto_imagen"
+                            src="./imgs/green.jpg"
+                            alt=""
+                        />
+                    </div>
+                </a>
+                <!-- descripcion producto -->
+                <div class="producto_descripcion">
+                    <p>Medallon de lentejas - Queso - Tomate - Lechuga - Cebolla caramelizada</p>
+                    <p class="producto_precio">
+                        simple $440
+                    </p>
+                </div>
+
+                <!-- ventana modal -->
+                <div class="popup" id="modal6">
+                    <a class="popup__overlay" href="#producto6"></a>
+                    <div class="popup__wrapper">
+                        <div class="popup__close-background"></div>
+                        <a class="popup__close" href="#producto6">X</a>
+                        <div class="contenido_modal">
+                            <div class="contenedor-imagen_modal">
+                                <img src="./imgs/green.jpg" alt="" />
+                            </div>
+
+                            <div class="contenedor-info">
+                                <div class="descripcion_producto">
+                                    <h2 class="descripcion_producto-titulo">
+                                        SPECIAL GREENBURGER
+                                    </h2>
+
+                                    <p class="descripcion_producto-texto">
+                                        Medallon de lentejas - Queso - Tomate - Lechuga - Cebolla caramelizada
+                                    </p>
+                                    <p class="descripcion_producto-precio">
+                                        simple $440
+                                    </p>
+                                </div>
+
+                                <!-- <div class="contenedor-boton_whatsapp">
+                                    <a class="boton_whatsapp" href="#"
+                                        >PEDILA YA</a
+                                    >
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="producto">
+                <!-- titulo producto -->
+                <h2 class="producto_titulo" id="producto7">FRIED CHICKEN</h2>
+                <!-- imagen producto -->
+                <a class="button" href="#modal7">
+                    <div class="contenedor-producto_imagen">
+                        <img
+                            class="producto_imagen"
+                            src="./imgs/friedchicken.jpg"
+                            alt=""
+                        />
+                    </div>
+                </a>
+                <!-- descripcion producto -->
+                <div class="producto_descripcion">
+                    <p>Medallon de pollo crispy - Cheddar - Lechuga - Tomate - Mostaza</p>
+                    <p class="producto_precio">
+                        simple $450
+                    </p>
+                </div>
+
+                <!-- ventana modal -->
+                <div class="popup" id="modal7">
+                    <a class="popup__overlay" href="#producto7"></a>
+                    <div class="popup__wrapper">
+                        <div class="popup__close-background"></div>
+                        <a class="popup__close" href="#producto7">X</a>
+                        <div class="contenido_modal">
+                            <div class="contenedor-imagen_modal">
+                                <img src="./imgs/friedchicken.jpg" alt="" />
+                            </div>
+
+                            <div class="contenedor-info">
+                                <div class="descripcion_producto">
+                                    <h2 class="descripcion_producto-titulo">FRIED CHICKEN
+                                    </h2>
+
+                                    <p class="descripcion_producto-texto">
+                                        Medallon de pollo crispy - Cheddar - Lechuga - Tomate - Mostaza
+                                    </p>
+                                    <p class="descripcion_producto-precio">
+                                        simple $450
+                                    </p>
+                                </div>
+
+                                <!-- <div class="contenedor-boton_whatsapp">
+                                    <a class="boton_whatsapp" href="#"
+                                        >PEDILA YA</a
+                                    >
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="producto">
+                <!-- titulo producto -->
+                <h2 class="producto_titulo-simple " id="producto8">ADICIONALES</h2>
+                <!-- descripcion producto -->
+
+                <div class="producto_descripcion">
+                    <p>Dambo</p><p class="producto_precio">$50</p>
+                        
+                   
+                    <p>Cheddar</p><p class="producto_precio">$50</p>
+                    <p>Emmental</p><p class="producto_precio"> $60</p>
+                    <p>Bacon $80</p><p class="producto_precio">$80</p>
+                    <p>Aros de Cebolla (x2)</p><p class="producto_precio">$150</p>
+                    <p>$150 Papas Fritas</p><p class="producto_precio"> $100 </p>
+                    <p>Carne </p><p class="producto_precio">$120</p>
+                    
+                </div>
+
+                
+            </div>
+
+            <div class="producto">
+                <!-- titulo producto -->
+                <h2 class="producto_titulo-simple" id="producto8">FRIENDS FRIES</h2>
+                <!-- descripcion producto -->
+
+                <div class="producto_descripcion">
+                    <p>Papas - Cheddar - Panceta </p>
+                    <p class="producto_precio">
+                        simple $400
+                    </p>
+                    <p>Papas - Cheddar - Verdeo</p>
+                    <p class="producto_precio">
+                        simple $300
+                    </p>
+                   
+                </div>
+
+                
+            </div>
+
+            <div class="producto">
+                <!-- titulo producto -->
+                <h2 class="producto_titulo-simple" id="producto8">BEBIDAS</h2>
+                <!-- descripcion producto -->
+
+                <div class="producto_descripcion">
+                    <p>Coca Cola 354cc   </p>
+                    <p class="producto_precio">
+                        $150
+                    </p>
+                    <p>Sprite 345cc  </p>
+                    <p class="producto_precio">
+                        $150
+                    </p>
+                    <p>Patagonia 473cc</p>
+                    <p class="producto_precio">
+                        $250
+                    </p>
+                    
+                    
+                </div>
+
+                
+            </div>
+                
+            <div class="botonflotante">
+                <a
+                    href="https://wa.me/message/FHS2SGO7SAZDD1"
+                    class="btn_whatsapp"
+                    target="_blank"
+                >
+                    <i class="fab fa-whatsapp"></i
+                ></a>
+            </div>
+
+        </section>
+
+        
+    </body>
+
+    <footer>
+
+        <div class="nuestras_redes">
+            <span class="nuestras_redes-titulo">Buscanos también en nuestras redes sociales!</span>
+        </div>
+
+            <div class="social_media">
+                <a
+                    href="https://www.facebook.com/thefriendsburgers/"
+                    target="_blank"
+                    ><div class="icon facebook">
+                        <div class="tooltip">
+                            <span><i class="fab fa-facebook-f"></i></span>
+                        </div>
+                    </div>
+                </a>
+
+                <a
+                    href="https://www.instagram.com/thefriendsburgers/"
+                    target="_blank"
+                    ><div class="icon instagram">
+                        <div class="tooltip">
+                            <span> <i class="fab fa-instagram"></i></span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="creditos" hidden>
+            <p class="nombre_marca"> The Friends Burgers ® x </p>
+                <a class="creditos_link" href="https://menucito.com.ar" target="_blank">Menucito.com.ar 🔥</a>
+           
+        </div>
+    </footer>
+
+</html>
